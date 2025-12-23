@@ -7,6 +7,6 @@
     "css": "style.css",
     "author": "KiskaSora",
     "version": "1.0.0",
-    "homePage": "https://github.com/KiskaSora/AI-SoundCloud",
+    "homePage": "https://github.com/KiskaSora/SillyTavern-AI-SoundCloud",
     "description": "Automatic music selection from SoundCloud based on conversation mood using keyword analysis. Автоматический подбор музыки из SoundCloud по настроению диалога."
 }
