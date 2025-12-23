@@ -682,8 +682,9 @@ jQuery(async () => {
     
     setTimeout(async () => {
         initUI();
-        eventSource.on(event_types.MESSAGE_RECEIVED, onMessageReceived);
+        eventSource.on(event_types.MESSAGE_RECEIVED, () => onMessageReceived());
         await initPlayer();
         console.log('[AI SoundCloud] ✓ Расширение готово');
     }, 1000);
 });
+
